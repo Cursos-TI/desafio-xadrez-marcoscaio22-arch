@@ -3,7 +3,11 @@
 int main () {
     
     char i = 1;
+   
+    printf("*** MOVIMENTO DA RAINHA ***\n");
+    
     // Mover a Rainha 8 vezes para Horizontal Esquerda
+    
     while (i <= 8)
     {
         printf("Horizontal Esquerda\n", i); // Imprimir a direção do movimento
